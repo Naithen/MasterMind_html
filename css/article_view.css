@@ -1,0 +1,40 @@
+.bouton{
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px; padding: 20px;
+    font-family: 'Do Hyeon';
+    letter-spacing: 2px;
+}
+.retour{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 20px;
+    background: #F7B733;
+    border-radius: 3px;   
+}
+.view_inner{
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+}
+.article_view_title{
+    margin: 0;
+    font-size: 700;
+}
+.article_view_subtitle{
+    font-weight: 300;
+    font-size: 14px;
+    margin: 5px 0; padding: 0;
+    border-bottom: 3px solid #F7B733;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+.article_view_content{
+    padding-top: 5px;
+    text-align: justify;
+    font-weight: 600;
+    font-family: 'Raleway';
+    padding-bottom: 5px;
+    font-size: 16px;
+}

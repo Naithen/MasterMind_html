@@ -1,0 +1,60 @@
+/* global */
+* {font-family: Arial, sans-serif; font-size: 14px; font-weight:normal; font-style:normal; color:#454550; padding:0; margin:0; box-sizing: border-box;}
+p {padding: 8px 0;}
+a { text-decoration:none; color:#ff9600; transition: color 0.3s; }
+a:hover {color:#00378B;}
+ol { margin:0px 28px; padding:0;}
+li { margin:4px 4px 8px; }
+b, strong {font-weight:bold;}
+i, em {font-style:italic;}
+blockquote { margin:8px 20px; }
+input, textarea, select { border:none; padding:0; background:#fdea91; color:#5A5A5A; font-weight:bold; font-size:12px; border-radius:4px;}
+input, textarea, option { padding:4px 4px; font-weight:bold; color:#5A5A5A; font-size:12px;}
+textarea {resize: none;}
+.inputs {width:200px;}
+.linputs {width:400px;}
+.sinputs {width:150px;}
+.vsinputs {width:75px;}
+.vlinputs {width:100%;}
+form {margin:0;}
+.img {font-size:0}
+sup, sub {font-size:9px; color:inherit;}
+img {border:0; max-width:100%; height:auto;}
+
+
+h1 {font-size:20px;
+    color:#0005c2;
+    font-family:'Zen Dots', cursive;
+}
+
+/* page */
+.page {font-size:0;}
+.page .game {width:50%; display:inline-block; vertical-align:top;}
+.page .options {width:50%; display:inline-block; vertical-align:top;}
+
+/* game board */
+table {border-collapse:collapse;width: 100%}
+table td {border:solid 1px #888; padding:4px; text-align:center;}
+table tr.selected td {background:#bfd1ff;}
+table tr.selected td.selected {background:#dce6ff;}
+table tr td.valid {display:none;}
+table tr.selected td.valid {display:table-cell;}
+table tr.win td {background:#43b456;}
+
+.result {text-align:center; font-size:30px;background-color: aquamarine}
+
+.pion {display:inline-block; width:20px; height:20px; border-radius:10px; border:solid 1px #888;}
+
+.correct {display:inline-block; width:10px; height:10px; border-radius:5px; border:solid 1px #888; background:black;}
+.misplaced {display:inline-block; width:10px; height:10px; border-radius:5px; border:solid 1px #888;}
+
+/* menu */
+.menus .menu {padding:10px 25px; margin:8px; background:#4366b4; color:white; cursor:pointer; width:200px;}
+
+.game{
+    padding: 20px;
+}
+.menus{
+    padding: 20px;
+    margin-top: 50px;
+}

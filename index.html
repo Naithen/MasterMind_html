@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+    <head>
+        <title>MasterMind</title>
+        <meta charset="utf-8" >
+            <!utilisé l'encodage utf-8>
+        <meta name="author" content= "Nathan Arcamone">
+        <meta name="description" content="premier jeux">
+            
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/jeux.css">
+        <link rel="stylesheet" href="css/footer.css">
+        
+            <!pour cette page utilisé la mise en page style.css>
+        
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+            <!pour utilisé la font>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.js" charset="utf-8"></script>
+        <script src="Javascript/jeux.js"></script>
+        <script>
+            /* on load scripts */
+            window.onload = function() {MasterMind.initialise();}
+        </script>
+        
+        
+            <!pour utilisé java>
+    </head>
+    
+    <body>
+        
+        <div class="contenu">
+            
+            <header role="header">
+            <nav class="menuh" role="navigation">
+                <div class="inner">
+                    <div class="m-left">
+                        <h1 class="logo">MasterMind</h1>
+                    </div>
+                    
+                    <div class="m-right">
+                        <a class="m-link" href="index.html"><i class="fas fa-gamepad"></i> jeux</a>
+                        <a class="m-link" href="ia.html"><i class="far fa-newspaper"></i> IA</a>
+                        <a class="m-link" href="regle.html"><i class="fas fa-question-circle"></i> Règle</a>
+                    </div>
+                    <div class="m-nav-toggle">
+                        <span class="m-toggle-icon"></span>
+                    </div>
+                </div>  
+            </nav>      
+        </header>
+            
+        <script src="Javascript/app.js" charset="utf-8"></script>
+        <div class="page">
+        <div class="game">
+           
+            <table>
+                <tbody id="plateau">
+
+                </tbody>
+            </table>
+            <p>
+              &nbsp;
+            </p>
+            <table>
+                <tbody id="colorSelector">
+
+                </tbody>
+            </table>
+        </div>
+        <div class="options">
+
+            <div id="result" class="result">
+
+            </div>
+
+            <div class="menus">
+                <div class="menu" onclick="MasterMind.startGame('easy');">
+                    Jouer "Facile"
+                </div>
+                <div class="menu" onclick="MasterMind.startGame('normal');">
+                    Jouer "Normal"
+                </div>
+                <div class="menu" onclick="MasterMind.startGame('hard');">
+                    Jouer "Difficile"
+                </div>
+                <div class="menu" onclick="MasterMind.startGame('extreme');">
+                    Jouer "Extr&ecirc;me"
+                </div>
+            </div>
+        </div>
+        
+            
+        </div>
+        </div>
+        
+
+    </body>
+</html>
